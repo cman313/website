@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Triple TM Transport</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+    }
+    header {
+      background: #002f6c;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #00509e;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      padding: 15px 20px;
+      display: inline-block;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background: #003f7d;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1502920514313-52581002a659') no-repeat center center/cover;
+      height: 400px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-shadow: 1px 1px 4px black;
+    }
+    .hero h1 {
+      font-size: 3em;
+    }
+    .content {
+      padding: 40px;
+      background: white;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .contact {
+      background: #002f6c;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+    .contact p {
+      margin: 5px 0;
+    }
+    footer {
+      background: #001f3f;
+      color: #ccc;
+      text-align: center;
+      padding: 10px;
+      font-size: 0.9em;
+    }
+    form {
+      margin-top: 20px;
+      background: #f9f9f9;
+      padding: 20px;
+      border-radius: 5px;
+    }
+    form input, form select, form textarea, form button {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      font-size: 1em;
+    }
+    form button {
+      background: #00509e;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    form button:hover {
+      background: #003f7d;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Triple T M Transport</h1>
+    <p>Reliable Freight Solutions Across the USA</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    <h1>Your Freight. Our Passion.</h1>
+  </div>
+
+  <div class="content" id="about">
+    <h2>About Triple T M Transport</h2>
+    <p>Based in Belleville, Michigan, we’re a family-run trucking company with a commitment to reliable and timely freight delivery across the United States. We value professionalism, safety, and outstanding customer service.</p>
+  </div>
+
+  <div class="content" id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Full Truckload (FTL) Shipping</li>
+      <li>Expedited Freight Services</li>
+      <li>Regional & Long-Haul Delivery</li>
+      <li>Dedicated Fleet Services</li>
+    </ul>
+
+    <h2>Join Our Team</h2>
+    <p>It’s an exciting time for CDL-A truck drivers to join Triple T M Transport’s OTR/Regional division! We offer great home time options and unique benefits when you join our team. Learn more and apply today!</p>
+
+    <h3>Our CDL-A OTR/Regional Truck Driver Jobs Offer:</h3>
+    <ul>
+      <li>Competitive pay (Certified Top Pay Carrier)</li>
+      <li>Mileage pay - Earn up to $.56 cpm based on experience</li>
+      <li>Loyalty Bonuses that reward driver tenure</li>
+      <li>Multiple OTR/Regional jobs – find your fit!</li>
+      <li>Comprehensive health care</li>
+      <li>$700 holiday pay – 7 paid holiday opportunities</li>
+      <li>Paid orientation</li>
+      <li>Employer paid short-term disability, life, and AD&D</li>
+      <li>Many voluntary benefits available</li>
+      <li>CDL defender, family, and identity Defender</li>
+      <li>401(k) with generous company match</li>
+      <li>Substantial referral bonus program</li>
+      <li>Rider/Pet policy, pet insurance</li>
+      <li>Trucks equipped with a 1500-watt to 1800-watt inverter; 100% automatic transmissions</li>
+      <li>The latest in-truck technology with electronic logging, GPS navigation</li>
+    </ul>
+
+    <h3>CDL-A Regional Truck Driver Job Requirements:</h3>
+    <ul>
+      <li>Must be at least 21 years of age</li>
+      <li>6+ months CDL A driving experience required</li>
+      <li>No DUI, DWI, or moving violations involving drugs or alcohol in the last 3 years</li>
+      <li>Stable work history</li>
+      <li>Valid CDL-A and Medical Card</li>
+    </ul>
+
+    <p>A more positive driver experience starts at Triple T M Transport. Fill out our short form today!</p>
+
+    <form>
+      <label for="fullname">Full Name</label>
+      <input type="text" id="fullname" name="fullname" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="experience">Driving Experience</label>
+      <select id="experience" name="experience">
+        <option value="less6">Less than 6 months</option>
+        <option value="6plus">6+ months</option>
+        <option value="2plus">2+ years</option>
+      </select>
+
+      <label for="message">Message or Questions</label>
+      <textarea id="message" name="message" rows="5"></textarea>
+
+      <button type="submit">Submit Application</button>
+    </form>
+  </div>
+
+  <div class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Phone:</strong> 313-474-1641</p>
+    <p><strong>Address:</strong> 847 Sumpter Rd, Belleville, MI 48111</p>
+    <p>Email us to get a free quote or inquire about driver opportunities.</p>
+  </div>
+
+  <footer>
+    &copy; 2025 Triple T M Transport. All rights reserved.
+  </footer>
+</body>
+</html>
